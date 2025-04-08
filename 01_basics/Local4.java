@@ -9,7 +9,7 @@ class Local4
 		System.out.println("");
 		System.out.println("the program is running");
 
-		char ch;
+		char c = 'k';
 
 		// System.out.println(ch);  // CTE
 	}

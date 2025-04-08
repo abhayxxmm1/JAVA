@@ -1,4 +1,4 @@
-class Logical1
+class Digit
 {
 	public static void main(String[] args) {
 		char ch = '1';

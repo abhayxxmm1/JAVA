@@ -1,4 +1,4 @@
-class Logical
+class Uppercase
 {
 	public static void main(String[] args) {
 		char ch = 'H';
