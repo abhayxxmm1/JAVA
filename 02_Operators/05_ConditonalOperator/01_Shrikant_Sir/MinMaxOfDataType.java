@@ -2,6 +2,9 @@ class MinMaxOfDataType
 {
 	public static void main(String[] args) 
 	{
+		// MIN_VALUE called as a RAPPER class variable
+ 		// MAX_VALUE called as a RAPPER class variable
+
 		System.out.println("min : "+Byte.MIN_VALUE);
 		System.out.println("min : "+Byte.MAX_VALUE); // 3 digit
 
