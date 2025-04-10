@@ -11,7 +11,7 @@ class FinalConcept
 		// final variable are treated as COSTANTS & we cannot change them
 
 		final int b = 1;
-		b = 20;
+		// b = 20; //❌ bcoz it bcoms a constant
 		System.out.println(b);
 
 		final double PI = 3.14;
