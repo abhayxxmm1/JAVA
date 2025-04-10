@@ -22,6 +22,6 @@ class ReverseOfNum
 		String op = (rev==dup) ? (" is a palamdrom (same)") : (" is not a paldrom");
 		
 		 
-		System.out.println("num : "+dup+ " sum : "+rev+ op) ;
+		System.out.println("num : "+dup+ " reverse : "+rev+ op) ;
 	}
 }
