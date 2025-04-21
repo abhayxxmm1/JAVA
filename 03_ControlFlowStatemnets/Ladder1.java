@@ -1,8 +1,11 @@
+import java.util.Scanner;
 class Ladder1
 {
 	public static void main (String[] args)
 	{
-		double marks = 1000;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the marks obtained: ");
+		double marks = sc.nextDouble();
 
 		if (marks>=0 && marks<35)
 		{
@@ -28,7 +31,7 @@ class Ladder1
 		{
 			System.out.println("Distinction!");
 		}
-		else if( marks > 100)
+		else
 		{
 			System.out.println("Not considerable");
 		}
