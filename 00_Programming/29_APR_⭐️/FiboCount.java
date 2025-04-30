@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class NthFibo
+class FiboCount
 {
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
@@ -8,8 +8,8 @@ class NthFibo
 		int no = sc.nextInt();
 		int n1 = 0, n2 = 1, n3;
 
-		int count = 1;
-		while(count<no)
+		int count = 0;
+		while(n1<no)
 		{
 			n3 = n1 + n2;
 
@@ -17,6 +17,6 @@ class NthFibo
 			n2=n3;
 			count++;
 		}
-			System.out.println(n1);
+			System.out.println(count);
 	}
 }
