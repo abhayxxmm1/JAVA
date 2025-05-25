@@ -28,12 +28,15 @@ class methodOverloading
 	}
 }
 /**
- more than one method of same name
- where the formal argument must differ in length or type
- ika MO
-
- why should we do MO?
- 	The task to perform is same but values on which the
- the task has to be performed is different then 
- we perform MO
+ *	A class having more than one method of same name
+ * where the formal argument must differ in length or type
+ * ika MO.
+ *
+ * Q) why should we do MO?
+ *	The task to perform is same but values on which
+ * the task has to be performed is different then 
+ * we perform MO.
+ *
+ * MO comes under Compile time polymorphism 
+ * (Compile time binding).
  */
