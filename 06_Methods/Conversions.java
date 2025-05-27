@@ -6,7 +6,7 @@ class Conversions
 		System.out.println(binaryToDecimal(10111));
 		System.out.println(decimalToOctal(86));
 		System.out.println(octalToDecimal(126));
-		System.out.println(decimalToHex(13));
+		System.out.println(decimalToHex());
 	}
 
 	public static int decimalToBinary(int num)

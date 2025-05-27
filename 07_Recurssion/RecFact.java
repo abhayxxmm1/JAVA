@@ -22,4 +22,12 @@ class RecFact
 		}
 		return num*fact(num-1);
 	}
+	public static int p(int base, int raise)
+	{
+		if(raise==0)
+		{
+			return 1;
+		}
+		return base*power(base, raise-1);
+	}
 }
