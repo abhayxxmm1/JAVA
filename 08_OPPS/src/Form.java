@@ -14,7 +14,7 @@ class Form // constructor chaining using This call statement
 
 	}
 
-	Form(String name,int age,long phno,String email,String loc) // all Mandatory
+	Form(String name,int age,long phNo,String email,String loc) // all Mandatory
 	{
 		this.name = name;
 		this.age = age;
